@@ -1,10 +1,10 @@
-*
-{
+* {
   margin: 0px;
   padding: 0px;
+  resize:auto;
 }
 img {
-  height:105px;
+  height:74px;
   position: absolute;
   top:0px;
   left: 0px;
@@ -12,7 +12,7 @@ img {
 header {
   border: 5px solid;
   text-align:center;
-  padding: 10px;
+  padding: 10px 0px 0px 0px ;
   
 }
 a {
@@ -21,10 +21,26 @@ a {
 
 ul.nav > li {
   display:inline;
-  border-right: 1px solid;
+  border-right: 1px solid gold;
   margin-right:20px;
-  padding-right: 20px;
+  padding-right: 30px;
+
 }
-li:last-child {
-  border-right: 0px;
+ul.nav{
+  background-color:black;
+  padding:10px; 
+}
+ul.nav > li:last-child {
+  border-right: 0px; 
+}
+
+#search-column > ul > li{
+  border: 1px solid;
+  margin-right:800px;
+}
+
+#results {
+  position:absolute;
+  top:120px;
+  right:620px;
 }
