@@ -8,9 +8,10 @@ img {
   position: absolute;
   top:0px;
   left: 0px;
+  z-index: -2;
 }
 header {
-  border: 5px solid;
+  border: 5px solid gold;
   text-align:center;
   padding: 10px 0px 0px 0px ;
   
@@ -33,14 +34,53 @@ ul.nav{
 ul.nav > li:last-child {
   border-right: 0px; 
 }
-
-#search-column > ul > li{
-  border: 1px solid;
+#search-column > ul > li:first-child {
+  border-bottom: 5px solid;
   margin-right:800px;
+  background: none;
+  font-size: 50px;
+  background-size:20px 20px;
+  padding:20px 0px;
+  font-weight: bold;
+  
+}
+#search-column > ul {
+  border-right: 5px solid gold;
+}
+
+#search-column > ul > li {
+  border-bottom: 5px solid;
+  margin-right:800px;
+  background:url("arrow.png") no-repeat center right;
+  background-size:20px 20px;
+  padding:20px 0px;
+  font-weight: bold;
+  
 }
 
 #results {
   position:absolute;
   top:120px;
-  right:620px;
+  right:470px;
 }
+
+button {
+    margin: 150px;
+    font-weight:bold;
+    color: black;
+    font-size: 100%;
+    background-color:gold;
+    border: 3px solid;
+    border-color:black;
+    border-radius: 10px;
+ 
+    height: 80px;
+    width: 300px;
+}
+
+p {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+
