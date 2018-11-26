@@ -22,7 +22,7 @@ a {
 
 ul.nav > li {
   display:inline;
-  border-right: 1px solid gold;
+  border-right: 1px solid white;
   margin-right:20px;
   padding-right: 30px;
 
@@ -43,9 +43,6 @@ ul.nav > li:last-child {
   padding:20px 0px;
   font-weight: bold;
   
-}
-#search-column > ul {
-  border-right: 5px solid gold;
 }
 
 #search-column > ul > li {
